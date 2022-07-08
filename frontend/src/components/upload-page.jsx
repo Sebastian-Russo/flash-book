@@ -10,7 +10,7 @@ const UploadPage = props => {
 	};
 
 	// TODO: Send to AWS ( S3 || Amazon Textract)
-	// const handleSubmission = () => {
+	const handleSubmission = () => {
 	// 	const formData = new FormData();
 
 	// 	formData.append('File', selected_file);
@@ -29,7 +29,7 @@ const UploadPage = props => {
 	// 		.catch((error) => {
 	// 			console.error('Error:', error);
 	// 		});
-	// };
+	};
 
 
 	return (
